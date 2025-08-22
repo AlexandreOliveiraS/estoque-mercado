@@ -105,21 +105,3 @@ Thymeleaf cache on
 
 Integração de código de barras: mock ativado com @Profile({"dev","prod"}).
 
-🗂️ Estrutura (essencial)
-src/main/java/com/alexandre/estoque
- ├─ config/SecurityConfig.java
- ├─ domain/Product.java
- ├─ repo/{ProductRepository,...}
- ├─ service/ProductService.java
- ├─ integration
- │   ├─ BarcodeClient.java
- │   └─ impl/BarcodeClientMock.java
- └─ web
-     ├─ api/{ProductRestController, BarcodeLookupController}.java
-     └─ {HomeController, ProductController}.java
-
-src/main/resources
- ├─ templates/products/list.html
- ├─ application.properties
- ├─ application-dev.properties
- └─ application-prod.properties
