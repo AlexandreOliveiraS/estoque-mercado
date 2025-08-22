@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS PRODUCT (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255),
+  barcode VARCHAR(255) UNIQUE,
+  quantity INT,
+  min_quantity INT,
+  price DECIMAL(19,2)
+);

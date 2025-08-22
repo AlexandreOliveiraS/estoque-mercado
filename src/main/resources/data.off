@@ -1,0 +1,8 @@
+INSERT INTO PRODUCT (name, barcode, quantity, min_quantity, price)
+VALUES ('Arroz 5kg', '7890001112223', 10, 3, 25.90);
+
+INSERT INTO PRODUCT (name, barcode, quantity, min_quantity, price)
+VALUES ('Feijão 1kg', '7890001113330', 2, 2, 8.50);
+
+INSERT INTO PRODUCT (name, barcode, quantity, min_quantity, price)
+VALUES ('Óleo 900ml', '7890001114447', 5, 2, 6.99);

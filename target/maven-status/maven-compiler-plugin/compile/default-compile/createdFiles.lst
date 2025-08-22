@@ -1,0 +1,14 @@
+com\alexandre\estoque\web\api\ProductRestController$ProductCreateRequest.class
+com\alexandre\estoque\web\HomeController.class
+com\alexandre\estoque\integration\impl\BarcodeClientMock.class
+com\alexandre\estoque\integration\BarcodeClient.class
+com\alexandre\estoque\repo\ProductRepository.class
+com\alexandre\estoque\service\ProductService.class
+com\alexandre\estoque\web\api\ProductRestController.class
+com\alexandre\estoque\web\api\ApiExceptionHandler.class
+com\alexandre\estoque\web\ProductController.class
+com\alexandre\estoque\EstoqueApplication.class
+com\alexandre\estoque\web\api\BarcodeLookupController.class
+com\alexandre\estoque\domain\Product.class
+com\alexandre\estoque\web\api\ProductRestController$ProductDTO.class
+com\alexandre\estoque\config\SecurityConfig.class
